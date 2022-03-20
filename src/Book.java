@@ -44,6 +44,7 @@ public class Book implements Comparable<Book> {
         Book book5 = new Book("Kutu Adam 5", 125, "Kobe Abe 5", 1999);
 
         Set<Book> bookSet = new TreeSet<>();
+
         bookSet.add(book1);
         bookSet.add(book2);
         bookSet.add(book3);
@@ -53,7 +54,7 @@ public class Book implements Comparable<Book> {
         System.out.println("Title,");
 
         for (Book book : bookSet) {
-            System.out.println("Name : " + book.getTitle() + " - " + book.getAuthor());
+            System.out.println("Title: " + book.getTitle() + " - " + book.getAuthor());
         }
 
         Set<Book> books2 = new TreeSet<>(new Comparator<Book>() {
@@ -69,10 +70,10 @@ public class Book implements Comparable<Book> {
         books2.add(book4);
         books2.add(book5);
 
-        System.out.println("\nPage Number,");
+        System.out.println("Page Number,");
 
         for (Book book : books2) {
-            System.out.println("Name : " + book.getTitle() + " - " + book.getPage());
+            System.out.println("Title: " + book.getTitle() + " - " + book.getPage());
         }
 
     }

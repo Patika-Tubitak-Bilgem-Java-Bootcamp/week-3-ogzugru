@@ -6,7 +6,7 @@ public class genericsList {
     public static void main(String[] args) {
 
         MyList<Integer> liste = new MyList<>();
-        System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
+        System.out.println("Liste Durumu: " + (liste.isEmpty() ? "Boş" : "Dolu"));
         liste.add(10);
         liste.add(20);
         liste.add(30);
@@ -16,10 +16,10 @@ public class genericsList {
         liste.add(60);
         liste.add(70);
 
-        System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
+        System.out.println("Liste Durumu: " + (liste.isEmpty() ? "Boş" : "Dolu"));
 
         // Bulduğu ilk indeksi verir
-        System.out.println("Indeks : " + liste.indexOf(20));
+        System.out.println("Indeks: " + liste.indexOf(20));
 
         // Bulamazsa -1 döndürür
         System.out.println("Indeks :" + liste.indexOf(100));
