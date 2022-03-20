@@ -1,7 +1,4 @@
-package com.company;
-
 import java.util.Comparator;
-import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
